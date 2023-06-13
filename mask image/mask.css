@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mask1 {
+    -webkit-mask-image: url(/white-youtube-logo-transparent-15.png);
+    mask-image: url(/white-youtube-logo-transparent-15.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+  }
