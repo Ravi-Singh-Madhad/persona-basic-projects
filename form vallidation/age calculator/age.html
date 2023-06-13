@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/age.css">
+    
+</head>
+<body>
+    <h1 class="heading">
+        AGE --CALCULATOR
+    </h1>
+    <main class="container">
+        <div class="input">
+            <!-- birth date -->
+            <label for="birthdate"> Please Enter The Date of Birth</label>
+            <input type="date" id="birthdate">
+        </div>
+        <!-- display output -->
+        <ul>
+            <li><span id="years"></span>-Years</li>
+            <li><span id="Months"></span>-Months</li>
+            <li><span id="Days"></span>-Days</li>
+            <li><span id="Hours"></span>-Hours</li>
+             <li><span id="Minutes"></span>-Minutes</li>
+            <li><span id="Seconds"></span>-Seconds</li>
+        </ul>
+        <!-- buttons -->
+        <div class="buttons">
+            <button class="btn" onclick="calculate()">Calculate</button>
+            <button class="btn" onclick="reset()">Reset</button>
+        </div>
+    </main>
+    <script src="/age.js"></script>
+        
+        
+</body>
+</html>

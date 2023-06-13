@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 15px 30px;
+    font-size: 20px;
+    padding: 8px;
+
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,fieldset,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+
+
+.main_heading {
+    text-align: center;
+}
+.button{
+    margin: 3rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+
+    background-color: #45a6cce7;
+    color: white;
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 15%;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #ccc;
+    color: black;
+}

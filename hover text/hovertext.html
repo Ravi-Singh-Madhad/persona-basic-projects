@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover text</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            padding: 15px 10px;
+            border: 2px solid darkgrey;
+            width: 200px;
+            background: right / 0% 100% no-repeat linear-gradient(#c1f5ee,#c1f5ee);
+            transition: background-size 500ms;
+        }
+        h1:hover{
+            color: white;
+          background: left / 100% 100% no-repeat linear-gradient(#c1f5ee,#c1f5ee);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Radha Radha</h1>
+</div>
+</body>
+</html>
