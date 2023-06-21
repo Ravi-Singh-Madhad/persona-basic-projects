@@ -1,0 +1,70 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      font-family: 'Poppins', sans-serif;
+      background: rgb(2,0,36);
+      background: radial-gradient(circle, rgba(2,0,36,1) 1%, rgba(9,9,121,1) 12%, rgba(0,212,255,1) 64%);
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .clock{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    color:#002244;
+    border: 20px solid #002244;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7),0px 0px 20px rgba(0, 0, 0, 0.7);
+    font-size: 45px;
+    font-weight: bolder;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .clock ul li {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 5px;
+  }
+  .clock ul li span {
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+  }
+  .clock::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #002244;
+    border-radius: 50%;
+    position: absolute;
+
+  }
+  .nidel{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+  }
+  .nidel span{
+    width: 10px;
+    height: var(--h);
+    background-color: var(--clr);
+    position: absolute;
+    border: 5px;
+    border-radius: 30px;
+
+
+  }
